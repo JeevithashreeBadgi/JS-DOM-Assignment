@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="text">Text</div>
+    <h1>H1 Tag</h1>
+    <div class="box">Box</div>
+    <h1>Hello</h1>
+    <div class="flex-container">
+        <div class="flex-item1">1</div>
+        <div class="flex-item2">2</div>
+        <div class="flex-item3">3</div>
+    </div><br>
+    <button onclick="changeDirection()">Change Flex Direction</button>
+    <h3>Difference between Window and Document</h3>
+    <p> Window : <ul>
+       <li> It represents a browser window or frame that displays the contents of the webpage.</li>
+        <li>It is the very first object that is loaded in the browser.</li>
+        <li>It is the object of the browser.</li>
+        <li>The window is part of BOM, not DOM.</li>
+    </ul></p> 
+    <p>Document : <ul>
+        <li>It represents any HTML document or web page that is loaded in the browser.</li>
+        <li>It is loaded inside the window.</li>
+        <li>It is the object of window property.</li>
+        <li>The document is part of BOM (browser object model) and dom (Document object model)</li>
+    </ul></p>
+    <h1>Hello</h1>
+
+    <h1>Hello World!</h1>
+    <button onclick="changeContent()" class="replace">Replace Text</button>
+<br><br>
+    <span id="hours">00</span>
+    <span id="minutes">00</span>
+    <span id="seconds">00</span>
+    <span id="ampm">AM</span>
+    <br><br>
+    <label for="year">Select Year</label>
+    <select name="year" id="year" onclick="printText()">
+        <option value="1">2020-2021</option>
+        <option value="2">2021-2022</option>
+        <option value="3">2022-2023</option>
+        <option value="4">2023-2024</option>
+        <option value="5">2024-2025</option>
+        <option value="6">2025-2026</option>
+    </select>
+    <div class="container"></div>
+
+<h2>FORM</h2>
+<form action="">
+    <input type="text" placeholder="name" ><br>
+    <input type="email" placeholder="E-mail"><br>
+    <input type="number" placeholder="phone no"><br>
+    <input type="date" placeholder="Date of Birth"><br>
+    <input type="submit">
+</form>
+    <script src="./index.js"></script>
+</body>
+</html>
